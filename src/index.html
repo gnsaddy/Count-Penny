@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="./jquery-3.4.0.slim.min.js"></script>
+    <script src="./bootstrap.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./tooltip.min.js"></script>
+
+    <title>Home</title>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light static-top container-fluid">
+    <div class="container">
+        <a class="navbar-brand logo" href="index.html">
+            <img src="brandImage/ll.png" class="img-fluid bg-transparent " alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-center text-justify">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="login.php">User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin-area/adminLogin.php">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Page Content -->
+<section class="py-5">
+<div class="container-fluid tcontainer">
+    <div class="row">
+
+        <div class="col-md-6">
+            &nbsp; &nbsp; &nbsp; &nbsp;<pre>   &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;    <img class="img-fluid rounded mx-auto " src="brandImage/expense.png"></pre>
+
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="my-3">Welcome to Count-Penny</h3>
+            <p>Budget your finances to know where your money is going. Count-Penny is a complete online money management tool designed
+            to keep track of all your transactions. Get started for free.</p>
+            <h3 class="my-3">Services</h3>
+            <ul>
+                <li>Track your account</li>
+                <li>Track spending</li>
+                <li>Forecast your ncome.</li>
+                <li>Forcast your Expenditure.</li>
+                <li>Be Creative.</li>
+            </ul>
+            <pre>                            <a href="signup.php" ><button type="button" class="btn3d btn btn-default btn-lg"><span class="glyphicon glyphicon-download-alt">
+                </span>Register</button></a>
+            </pre>
+        </div>
+
+    </div>
+</div>
+</section>
+    <!-- /.row -->
+<!-- /.container -->
+
+<!-- footer -->
+<?php
+include("include/footer.php");
+?>
+
+</body>
+</html>
