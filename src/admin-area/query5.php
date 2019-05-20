@@ -47,26 +47,26 @@
                     <div class="card-body">
                         <h3 class="login-heading mb-4 text-center"><u>List the details of flexibleExpense for salaried user</h3></u>
                         <table class="table table-bordered table-responsive">
-                            <?php
-                                $queryShow = "select u.fname,u.userId,ut.uType,u.netIncome+u.otherIncome as Income,e.expenseId,sum(fl.flAmount) as Flexible
+                        <?php
+                            $queryShow = "select u.fname,u.userId,ut.uType,u.netIncome+u.otherIncome as Income,e.expenseId,sum(fl.flAmount) as Flexible
                                      from Expense e,User u,UserType ut,FlexibleExpense fl,HasExpense h
                                     where u.userId=ut.userId and u.userId=h.userId and e.expenseId=h.expenseId and ut.uType=\"salaried\" and
                                     e.expenseId=fl.expenseId group by e.expenseId,u.userId;";
-                                $resultShow = mysqli_query($con,$queryShow);
-                                if($resultShow -> num_rows>0){
-                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>fname</th><th>userId</th><th>uType</th><th>Income</th><th>expenseId</th><th>Flexible</th></tr>";
-                                    while ($row = $resultShow->fetch_assoc()){
-                                        echo "<tr>";
-                                        echo "<td>".$row['fname']."</td><td>".$row['userId']."</td><td>".$row['uType']."</td><td>".$row['Income']."</td><td>".$row['expenseId']."</td><td>".$row['Flexible'];
-                                        echo " </td></tr>";
-                                    }
-                                    echo "</table";
+                            $resultShow = mysqli_query($con,$queryShow);
+                            if($resultShow -> num_rows>0){
+                                echo "<table class='table table-responsive-md table-bordered'><tr><th>fname</th><th>userId</th><th>uType</th><th>Income</th><th>expenseId</th><th>Flexible</th></tr>";
+                                while ($row = $resultShow->fetch_assoc()){
+                                    echo "<tr>";
+                                    echo "<td>".$row['fname']."</td><td>".$row['userId']."</td><td>".$row['uType']."</td><td>".$row['Income']."</td><td>".$row['expenseId']."</td><td>".$row['Flexible'];
+                                    echo " </td></tr>";
                                 }
-                            ?>
-                        </table>
-                    </div>
-                </div>
+                                echo "</table";
+                            }
+                        ?>
+                </table>
             </div>
+        </div>
+    </div>
 </section>
 <?php
     include('../include/footer.php');

@@ -45,19 +45,17 @@
             <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
                 <div class="card card-signin my-5">
                     <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>List the details of flexibleExpense for salaried user</h3></u>
+                        <h3 class="login-heading mb-4 text-center"><u>List the details of expense spend on food for all users</h3></u>
                         <table class="table table-bordered table-responsive">
                             <?php
-                                $queryShow = "select u.fname,u.userId,ut.uType,u.netIncome+u.otherIncome as Income,e.expenseId,sum(fl.flAmount) as Flexible
-                                     from Expense e,User u,UserType ut,FlexibleExpense fl,HasExpense h
-                                    where u.userId=ut.userId and u.userId=h.userId and e.expenseId=h.expenseId and ut.uType=\"salaried\" and
-                                    e.expenseId=fl.expenseId group by e.expenseId,u.userId;";
+                                $queryShow = "select u.fname,u.userId,fl.flexibleType as Food,fl.flAmount as Amount from User u,FlexibleExpense fl,Expense e,HasExpense h where
+                                                u.userId=h.userId and e.expenseId=h.expenseId and e.expenseId=fl.expenseId and flexibleType=\"food\" ";
                                 $resultShow = mysqli_query($con,$queryShow);
                                 if($resultShow -> num_rows>0){
-                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>fname</th><th>userId</th><th>uType</th><th>Income</th><th>expenseId</th><th>Flexible</th></tr>";
+                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>fname</th><th>userId</th><th>Food</th><th>Amount</th></tr>";
                                     while ($row = $resultShow->fetch_assoc()){
                                         echo "<tr>";
-                                        echo "<td>".$row['fname']."</td><td>".$row['userId']."</td><td>".$row['uType']."</td><td>".$row['Income']."</td><td>".$row['expenseId']."</td><td>".$row['Flexible'];
+                                        echo "<td>".$row['fname']."</td><td>".$row['userId']."</td><td>".$row['Food']."</td><td>".$row['Amount'];
                                         echo " </td></tr>";
                                     }
                                     echo "</table";
