@@ -55,6 +55,7 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="viewProfile.php">View</a>
                         <a class="dropdown-item" href="updateUserPro.php">Update</a><hr>
+                        <a class="dropdown-item" href="report.php">Report</a><hr>
                         <a class="dropdown-item" href="logout.php">Logout</a>
                     </div>
                 </li>

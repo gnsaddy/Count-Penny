@@ -80,8 +80,8 @@
                         </tr>
 
                         <tr>
-                            <td><label>7.List number of students who attended the meeting conducted by faculty id 'fac03'</label></td>
-                            <td><button type="button" class="rounded-bottom">Check</button></td>
+                            <td><label>7.List the details of medical expense for unsalaried user.</label></td>
+                            <td><a href="query7.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>
