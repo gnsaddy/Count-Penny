@@ -45,46 +45,20 @@
             <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
                 <div class="card card-signin my-5">
                     <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>List the details user with respect to its type(salaried and unsalaried)</h3></u>
+                        <h3 class="login-heading mb-4 text-center"><u>List the details of fixed expense for salaried user</h3></u>
                         <table class="table table-bordered table-responsive">
                             <?php
-                                $queryShow = "select u.fname as name,u.userId,ut.uType as UserType,sum(u.netIncome + u.otherIncome) as Income from User u,UserType ut where u.userId=ut.userId 
-                                                   and ut.uType=\"salaried\" group by u.userId";
+                                $queryShow = "select u.fname,u.userId,ut.uType,u.netIncome+u.otherIncome as Income,e.expenseId,sum(fx.fxAmount) as FixedExp
+                                             from Expense e,User u,UserType ut,FixedExpense fx,HasExpense h
+                                            where u.userId=ut.userId and u.userId=h.userId and e.expenseId=h.expenseId and ut.uType=\"salaried\" and
+                                            e.expenseId=fx.expenseId group by e.expenseId,u.userId";
                                 $resultShow = mysqli_query($con,$queryShow);
                                 if($resultShow -> num_rows>0){
-                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>name</th><th>userId</th><th>UserType</th><th>Income</th></tr>";
+                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>fname</th><th>userId</th><th>uType</th><th>Income</th><th>expenseId</th><th>Fixed</th></tr>";
                                     while ($row = $resultShow->fetch_assoc()){
                                         echo "<tr>";
-                                        echo "<td>".$row['name']."</td><td>".$row['userId']."</td><td>".$row['UserType']."</td><td>".$row['Income']."</td>";
-                                        echo " </tr>";
-                                    }
-                                    echo "</table";
-                                }
-                            ?>
-                        </table>
-                    </div>
-                </div>
-            </div>
-</section>
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
-                <div class="card card-signin my-5">
-                    <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>List the details user with respect to its type(salaried and unsalaried)</h3></u>
-                        <table class="table table-bordered table-responsive">
-                            <?php
-                                $queryShow = "select u.fname as name,u.userId,ut.uType as UserType,sum(u.netIncome + u.otherIncome) as Income from User u,UserType ut where u.userId=ut.userId 
-                                                       and ut.uType=\"unsalaried\" group by u.userId";
-                                $resultShow = mysqli_query($con,$queryShow);
-                                if($resultShow -> num_rows>0){
-                                    echo "<table class='table table-responsive-md table-bordered'><tr><th>name</th><th>userId</th><th>UserType</th><th>Income</th></tr>";
-                                    while ($row = $resultShow->fetch_assoc()){
-                                        echo "<tr>";
-                                        echo "<td>".$row['name']."</td><td>".$row['userId']."</td><td>".$row['UserType']."</td><td>".$row['Income']."</td>";
-                                        echo " </tr>";
+                                        echo "<td>".$row['fname']."</td><td>".$row['userId']."</td><td>".$row['uType']."</td><td>".$row['Income']."</td><td>".$row['expenseId']."</td><td>".$row['FixedExp'];
+                                        echo " </td></tr>";
                                     }
                                     echo "</table";
                                 }

@@ -49,9 +49,9 @@
                     <h3 class="login-heading mb-4 text-center"><u>Query Analysis</h3></u>
                     <table class="table">
                         <tr>
-                            <td><label>1.Display faculty name and email who counsels Rajesh</label></td>
+                            <td><label>1.Display list of details user with respect to its type(salaried and unsalaried)</label></td>
 
-                            <td><a href="q1.php"><button type="button" class="rounded-bottom" >Check</button></a></td>
+                            <td><a href="query1.php"><button type="button" class="rounded-bottom" >Check</button></a></td>
                         </tr>
 
                         <tr>
@@ -85,13 +85,13 @@
                         </tr>
 
                         <tr>
-                            <td><label>8.List the student name,parent name,parent contact number of the students who did not attend meeting held by Dr.Ramya on Jan-13-2019</label></td>
-                            <td><button type="button" class="rounded-bottom">Check</button></td>
+                            <td><label>8.List the details of user with expenseId</label></td>
+                            <td><a href="query8.php"> <button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>
-                            <td><label>9.List the faculty name and meeting details which were conducted on 2018-02-16</label></td>
-                            <td><button type="button" class="rounded-bottom">Check</button></td>
+                            <td><label>9.List the details of fixed expense for salaried user</label></td>
+                            <td><a href="query9.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>

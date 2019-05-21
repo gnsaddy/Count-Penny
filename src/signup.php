@@ -68,7 +68,7 @@
                             <label for="lname">Last Name</label>
                         </div>
                         <div class="form-label-group">
-                            <input type="text" id="userCategory" name="userCategory" class="form-control" placeholdflAmounter="salaried/unsalaried" required autofocus>
+                            <input type="text" id="userCategory" name="userCategory" class="form-control" placeholder="salaried/unsalaried" required autofocus>
                             <label for="userCategory">salaried/unsalaried</label>
                         </div>
 
