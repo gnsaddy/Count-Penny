@@ -65,8 +65,8 @@
                         </tr>
 
                         <tr>
-                            <td><label>4.List the faculty name and the number of students counselled by him/her</label></td>
-                            <td><a href="q4.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><label>4.List the details of specific user having fixed expense (userid01) </label></td>
+                            <td><a href="query4.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>

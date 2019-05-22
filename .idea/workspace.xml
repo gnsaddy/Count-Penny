@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a3a2c0-33c1-4d06-ab0d-e9f6efdf7733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/admin-area/query8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin-area/query9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin-area/query4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chartAnalysis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin-area/adminpro.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin-area/adminpro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin-area/query1.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin-area/query1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/signup.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="149" lean-forward="true" selection-start-line="38" selection-start-column="149" selection-end-line="38" selection-end-column="149" />
+            <state relative-caret-position="166">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="45" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -134,37 +132,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/query8.php">
+        <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="40" column="6" selection-end-line="74" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="107" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
+        <entry file="file://$PROJECT_DIR$/src/chartAnalysis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="93" column="117" selection-start-line="93" selection-start-column="117" selection-end-line="93" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/query9.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="47" column="121" selection-start-line="47" selection-start-column="121" selection-end-line="47" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/query5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="61" column="33" lean-forward="true" selection-end-line="76" />
+            <state relative-caret-position="155">
+              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+              <folding>
+                <element signature="e#2296#2361#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-420">
-              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <caret line="59" column="24" lean-forward="true" selection-end-line="258" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -253,16 +237,18 @@
         <option value="$PROJECT_DIR$/src/report.php" />
         <option value="$PROJECT_DIR$/src/reportDetail.php" />
         <option value="$PROJECT_DIR$/src/signup.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql" />
         <option value="$PROJECT_DIR$/src/admin-area/query1.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query8.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query9.php" />
         <option value="$PROJECT_DIR$/src/admin-area/adminpro.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql" />
+        <option value="$PROJECT_DIR$/src/admin-area/query4.php" />
+        <option value="$PROJECT_DIR$/src/chartAnalysis.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.2" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="8" />
     <option name="y" value="108" />
     <option name="width" value="1221" />
@@ -288,12 +274,6 @@
               <item name="count-penny" type="b2602c69:ProjectViewProjectNode" />
               <item name="count-penny" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="count-penny" type="b2602c69:ProjectViewProjectNode" />
-              <item name="count-penny" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-area" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,18 +344,18 @@
       <workItem from="1558190855846" duration="599000" />
       <workItem from="1558230625106" duration="1212000" />
       <workItem from="1558357500183" duration="17743000" />
-      <workItem from="1558444435821" duration="3514000" />
+      <workItem from="1558444435821" duration="7076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154607000" />
+    <option name="totallyTimeSpent" value="158169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15936556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15936556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,10 +383,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://2050235c-34b1-4c28-8738-9b902508a9c0/schema/expenseManagement/table/Admin" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2050235c-34b1-4c28-8738-9b902508a9c0/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.html" />
     <entry file="file://$PROJECT_DIR$/src/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="149" lean-forward="true" selection-start-line="38" selection-start-column="149" selection-end-line="38" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reportDetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -707,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin-area/query8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -721,24 +683,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin-area/query5.php">
+    <entry file="file://$PROJECT_DIR$/src/admin-area/query9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="61" column="33" lean-forward="true" selection-end-line="76" />
+        <state relative-caret-position="49">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin-area/query9.php">
+    <entry file="file://$PROJECT_DIR$/src/admin-area/query5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="88" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin-area/query4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="47" column="121" selection-start-line="47" selection-start-column="121" selection-end-line="47" selection-end-column="121" />
+          <caret line="47" column="136" selection-start-line="47" selection-start-column="136" selection-end-line="47" selection-end-column="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="93" column="117" selection-start-line="93" selection-start-column="117" selection-end-line="93" selection-end-column="117" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="107" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="59" column="24" lean-forward="true" selection-end-line="258" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chartAnalysis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#2296#2361#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
