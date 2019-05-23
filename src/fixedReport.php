@@ -2,6 +2,7 @@
     session_start();
     include("include/db.php");
     //    session_start();
+    error_reporting(0);
 ?>
 
 <!DOCTYPE html>
@@ -75,66 +76,71 @@
 <section class="py-5">
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4 mx-auto">
-            <div class="card card-signin my-5">
-                <div class="card-body">
-                    <h3 class="login-heading mb-4 text-center"><u>Misce expense report</h3></u><hr>
-                    <form role="form" method="post" action="reportDetail.php" name="formReport">
-                        <div class="form-group">
-                            <label>From Date</label>
-                            <input type="date" class="form-control" id="fromdate" name="fromdate" required="true">
-                        </div>
-                        <div class="form-group">
-                            <label>To Date</label>
-                            <input type="date" class="form-control" id="todate" name="todate" required="true">
-                        </div>
-                        <hr>
-                        <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" name="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 mx-auto">
+            <!--            <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 mx-auto">-->
+            <div class="col-sm-10 col-md-10 col-lg-10 mx-auto">
                 <div class="card card-signin my-5">
                     <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>fixed expense report</h3></u><hr>
-                        <form role="form" method="post" action="fixedReport.php" name="formReport">
-                            <div class="form-group">
-                                <label>From Date</label>
-                                <input type="date" class="form-control" id="fromdate" name="fromdate" required="true">
-                            </div>
-                            <div class="form-group">
-                                <label>To Date</label>
-                                <input type="date" class="form-control" id="todate" name="todate" required="true">
-                            </div>
-                            <hr>
-                            <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" name="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 mx-auto">
-                <div class="card card-signin my-5">
-                    <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>flexible expense report</h3></u><hr>
-                        <form role="form" method="post" action="flexibleReport.php" name="formReport">
-                            <div class="form-group">
-                                <label>From Date</label>
-                                <input type="date" class="form-control" id="fromdate" name="fromdate" required="true">
-                            </div>
-                            <div class="form-group">
-                                <label>To Date</label>
-                                <input type="date" class="form-control" id="todate" name="todate" required="true">
-                            </div>
-                            <hr>
-                            <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" name="submit">Submit</button>
-                        </form>
+                        <h3 class="login-heading mb-4 text-center"><u>Date-wise Fixed-expense report</h3></u><hr>
+
+
+                        <?php
+                            $fdate=$_POST['fromdate'];
+                            $tdate=$_POST['todate'];
+                        ?>
+                        <h5 align="center" style="color:blue">Expense Report from <?php echo $fdate?> to <?php echo $tdate?></h5>
+                        <hr />
+                        <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                            <thead>
+                            <tr>
+                            <tr>
+                                <th>S.NO</th>
+                                <th>Date</th>
+                                <th>Expense Amount</th>
+                            </tr>
+                            </tr>
+                            </thead>
+                            <?php
+                                $userName = $_SESSION['user_mail'];
+                                //
+                                $retFix = mysqli_query($con,"select expenseDate ,sum(FE.fxAmount) as FixedExpense from HasExpense he JOIN User u ON he.userId = u.userId JOIN Expense E on he.expenseId = E.expenseId
+                                                                                            JOIN FixedExpense FE on E.expenseId = FE.expenseId where expenseDate BETWEEN '$fdate' and '$tdate' and u.userId='$result[userId]' group by expenseDate");
+                                $cnt=1;
+                                while ($row=mysqli_fetch_assoc($retFix)) {
+
+                                    ?>
+
+                                    <tr>
+                                        <td><?php echo $cnt;?></td>
+                                        <td><?php  echo $row['expenseDate'];?></td>
+                                        <td><?php  echo $ttlsl = $row['FixedExpense'];
+                                            ?></td>
+                                    </tr>
+                                    <?php
+                                    $totalsexp = 0;
+                                    $totalsexp += $ttlsl;
+                                    $cnt=$cnt+1;
+                                }?>
+
+                            <tr>
+                                <th colspan="2" style="text-align:center">Grand Total</th>
+                                <td><?php echo $totalsexp;?></td>
+                            </tr>
+
+                        </table>
+
+
 
 
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.panel-->
+        </div><!-- /.col-->
+
+
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 </section>
 <!-- /.row -->

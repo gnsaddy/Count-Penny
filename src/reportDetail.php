@@ -2,6 +2,7 @@
     session_start();
     include("include/db.php");
     //    session_start();
+    error_reporting(0);
 ?>
 
 <!DOCTYPE html>
@@ -75,29 +76,12 @@
 <section class="py-5">
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+<!--            <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 mx-auto">-->
+            <div class="col-sm-10 col-md-10 col-lg-10 mx-auto">
                 <div class="card card-signin my-5">
                     <div class="card-body">
-                        <h3 class="login-heading mb-4 text-center"><u>Date-wise expense report</h3></u><hr>
+                        <h3 class="login-heading mb-4 text-center"><u>Date-wise miscellaneous-expense report</h3></u><hr>
 
-                            <div class="row">
-                                <ol class="breadcrumb">
-                                    <li><a href="#">
-                                            <em class="fa fa-home"></em>
-                                        </a></li>
-                                    <li class="active">Expense Report</li>
-                                </ol>
-                            </div><!--/.row-->
-                            <div class="row">
-                                <div class="col-lg-12">
-
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">Expense Report</div>
-                                        <div class="panel-body">
-
-                                            <div class="col-md-12">
 
                                                 <?php
                                                     $fdate=$_POST['fromdate'];
@@ -118,31 +102,28 @@
                                                     </thead>
                                                     <?php
                                                         $userName = $_SESSION['user_mail'];
-                                                        $ret=mysqli_query($con,"SELECT expenseDate,SUM(miscelleneous) FROM Expense,User u  where (expenseDate BETWEEN '$fdate' and '$tdate') && (u.userId='$userName') group by expenseDate");
+                                                        $ret=mysqli_query($con,"SELECT expenseDate,sum(miscelleneous) as miscelleneous FROM HasExpense he JOIN User u on he.userId = u.userId JOIN Expense E on he.expenseId = E.expenseId   where expenseDate BETWEEN '$fdate' and '$tdate' and u.userId='$result[userId]' group by expenseDate");
                                                         $cnt=1;
-                                                        while ($row=mysqli_fetch_array($ret)) {
+                                                        while ($row=mysqli_fetch_assoc($ret)) {
 
                                                             ?>
 
                                                             <tr>
                                                                 <td><?php echo $cnt;?></td>
-
                                                                 <td><?php  echo $row['expenseDate'];?></td>
                                                                 <td><?php  echo $ttlsl = $row['miscelleneous'];
                                                                 ?></td>
-
-
                                                             </tr>
                                                             <?php
-
-//                                                            $totalsexp = $ttlsl;
-//                                                            $cnt=$cnt+1;
+                                                            $totalsexp = 0;
+                                                            $totalsexp += $ttlsl;
+                                                            $cnt=$cnt+1;
                                                         }?>
 
-<!--                                                    <tr>-->
-<!--                                                        <th colspan="2" style="text-align:center">Grand Total</th>-->
-<!--                                                        <td>--><?php //echo $totalsexp;?><!--</td>-->
-<!--                                                    </tr>-->
+                                                    <tr>
+                                                        <th colspan="2" style="text-align:center">Grand Total</th>
+                                                        <td><?php echo $totalsexp;?></td>
+                                                    </tr>
 
                                                 </table>
 
