@@ -71,52 +71,52 @@
                         <tr>
                             <td><label>1.Display list of details user with respect to its type(salaried and unsalaried)</label></td>
 
-                            <td><a href="query1.php"><button type="button" class="rounded-bottom" >Check</button></a></td>
+                            <td><a href="query1.php"><button type="button" class="rounded-bottom" >Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>2.Display list of details user and fetch miscelleneous</label></td>
-                            <td><a href="query2.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query2.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>3.Display details of flexibleExpense for unsalaried user<label></td>
-                            <td><a href="query3.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query3.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>4.List the details of specific user having fixed expense (userid01) </label></td>
-                            <td><a href="query4.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query4.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>5.List the details of flexibleExpense for salaried user</label></td>
-                            <td><a href="query5.php"><button type="button" class="rounded-bottom">Check</button></a></td></tr>
+                            <td><a href="query5.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td></tr>
                         </tr>
 
                         <tr>
                             <td><label>6.List the details of expense spend on food for all users.</label></td>
-                            <td><a href="query6.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query6.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>7.List the details of medical expense for unsalaried user.</label></td>
-                            <td><a href="query7.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query7.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>8.List the details of user with expenseId</label></td>
-                            <td><a href="query8.php"> <button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query8.php"> <button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>9.List the details of fixed expense for salaried user</label></td>
-                            <td><a href="query9.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query9.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
 
                         <tr>
                             <td><label>10.List the details of expense paid on bills for al users user</label></td>
-                            <td><a href="query10.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><a href="query10.php"><button type="button" class="rounded-bottom">Execute Query</button></a></td>
                         </tr>
                     </table>
 

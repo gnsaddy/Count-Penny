@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a3a2c0-33c1-4d06-ab0d-e9f6efdf7733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/admin-area/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin-area/query10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin-area/query2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin-area/query3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin-area/adminLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin-area/adminLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin-area/adminpro.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin-area/adminpro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin-area/query1.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin-area/query1.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,64 +79,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reportDetail.php">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="497">
+              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/logout.php">
+        <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="15">
+              <caret line="99" column="152" selection-start-line="99" selection-start-column="144" selection-end-line="99" selection-end-column="152" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/admin-area/adminLogin.php">
+        <entry file="file://$PROJECT_DIR$/src/updateUserPro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/flexibleReport.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="61" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fixedReport.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
+            <state relative-caret-position="240">
+              <caret line="207" column="28" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="207" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -160,9 +119,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>checkbox</find>
+      <find>Check</find>
     </findStrings>
     <replaceStrings>
       <replace>text</replace>
+      <replace>Execute Query</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -196,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/updateUserPro.php" />
         <option value="$PROJECT_DIR$/src/home.php" />
         <option value="$PROJECT_DIR$/src/viewProfile.php" />
-        <option value="$PROJECT_DIR$/src/viewExpense.php" />
         <option value="$PROJECT_DIR$/src/contact.php" />
         <option value="$PROJECT_DIR$/src/about.php" />
         <option value="$PROJECT_DIR$/src/index.html" />
@@ -204,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/admin-area/query6.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query7.php" />
         <option value="$PROJECT_DIR$/src/signup.php" />
-        <option value="$PROJECT_DIR$/src/admin-area/query1.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query8.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query9.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query4.php" />
@@ -216,17 +175,19 @@
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/admin-area/query2.php" />
         <option value="$PROJECT_DIR$/src/admin-area/query3.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql" />
         <option value="$PROJECT_DIR$/src/admin-area/query10.php" />
         <option value="$PROJECT_DIR$/src/admin-area/adminLogin.php" />
+        <option value="$PROJECT_DIR$/src/admin-area/logout.php" />
         <option value="$PROJECT_DIR$/src/userPro.php" />
         <option value="$PROJECT_DIR$/src/admin-area/adminpro.php" />
-        <option value="$PROJECT_DIR$/src/admin-area/logout.php" />
+        <option value="$PROJECT_DIR$/src/admin-area/query1.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql" />
+        <option value="$PROJECT_DIR$/src/viewExpense.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.2" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="8" />
     <option name="y" value="108" />
     <option name="width" value="1221" />
@@ -251,12 +212,6 @@
               <item name="count-penny" type="b2602c69:ProjectViewProjectNode" />
               <item name="count-penny" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="count-penny" type="b2602c69:ProjectViewProjectNode" />
-              <item name="count-penny" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-area" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,18 +284,18 @@
       <workItem from="1558230625106" duration="1212000" />
       <workItem from="1558357500183" duration="17743000" />
       <workItem from="1558444435821" duration="17448000" />
-      <workItem from="1559008182278" duration="1794000" />
+      <workItem from="1559008182278" duration="6647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170335000" />
+    <option name="totallyTimeSpent" value="175188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20996979" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20996979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,13 +399,6 @@
     <entry file="file://$PROJECT_DIR$/src/include/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/updateUserPro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/addExpense.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3289">
@@ -526,20 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin-area/query1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1759">
-          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -565,71 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/c8b882a0-e297-4b22-bb6c-a136637a2a15.SCHEMA:expenseManagement">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>c8b882a0-e297-4b22-bb6c-a136637a2a15.SCHEMA:expenseManagement</OriginalElement>
-          <nodes>
-            <node x="183.99999999999997" y="341.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense</node>
-            <node x="553.0" y="583.5">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.UserType</node>
-            <node x="195.99999999999997" y="572.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FixedExpense</node>
-            <node x="402.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.misData</node>
-            <node x="0.0" y="847.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.sumFle</node>
-            <node x="0.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.fixedData</node>
-            <node x="484.75" y="0.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Admin</node>
-            <node x="377.0" y="583.5">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense</node>
-            <node x="0.0" y="572.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FlexibleExpense</node>
-            <node x="663.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.sumFix</node>
-            <node x="484.75" y="253.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User</node>
-            <node x="201.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.flexibleData</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User">
-              <point x="39.0" y="-35.0" />
-              <point x="494.0" y="547.0" />
-              <point x="522.5" y="547.0" />
-              <point x="-37.75" y="134.5" />
-            </edge>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.UserType" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User">
-              <point x="0.0" y="-35.0" />
-              <point x="619.5" y="547.0" />
-              <point x="598.0" y="547.0" />
-              <point x="37.75" y="134.5" />
-            </edge>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FixedExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
-              <point x="0.0" y="-46.5" />
-              <point x="0.0" y="46.5" />
-            </edge>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
-              <point x="-39.0" y="-35.0" />
-              <point x="416.0" y="547.0" />
-              <point x="338.16666666666663" y="547.0" />
-              <point x="61.66666666666663" y="46.5" />
-            </edge>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Admin">
-              <point x="0.0" y="-134.5" />
-              <point x="0.0" y="101.5" />
-            </edge>
-            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FlexibleExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
-              <point x="0.0" y="-46.5" />
-              <point x="88.0" y="547.0" />
-              <point x="214.83333333333331" y="547.0" />
-              <point x="-61.66666666666666" y="46.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.512273212379936" x="436.0" y="458.5" />
-          <SelectedNodes>
-            <node>c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
         </state>
       </provider>
     </entry>
@@ -668,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reportDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin-area/query9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
@@ -710,24 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/admin-area/query10.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="47" column="119" selection-start-line="47" selection-start-column="119" selection-end-line="47" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flexibleReport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -745,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/userPro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -759,10 +600,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
+    <entry file="uml://DATABASE/c8b882a0-e297-4b22-bb6c-a136637a2a15.SCHEMA:expenseManagement">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c8b882a0-e297-4b22-bb6c-a136637a2a15.SCHEMA:expenseManagement</OriginalElement>
+          <nodes>
+            <node x="183.99999999999997" y="341.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense</node>
+            <node x="553.0" y="583.5">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.UserType</node>
+            <node x="195.99999999999997" y="572.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FixedExpense</node>
+            <node x="402.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.misData</node>
+            <node x="0.0" y="847.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.sumFle</node>
+            <node x="0.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.fixedData</node>
+            <node x="484.74999999999994" y="0.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Admin</node>
+            <node x="377.0" y="583.5">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense</node>
+            <node x="0.0" y="572.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FlexibleExpense</node>
+            <node x="663.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.sumFix</node>
+            <node x="484.74999999999994" y="253.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User</node>
+            <node x="201.0" y="710.0">c8b882a0-e297-4b22-bb6c-a136637a2a15.VIEW:expenseManagement.flexibleData</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User">
+              <point x="39.0" y="-35.0" />
+              <point x="494.0" y="547.0" />
+              <point x="522.5" y="547.0" />
+              <point x="-37.75" y="134.5" />
+            </edge>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.UserType" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User">
+              <point x="0.0" y="-35.0" />
+              <point x="619.5" y="547.0" />
+              <point x="598.0" y="547.0" />
+              <point x="37.75" y="134.5" />
+            </edge>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FixedExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
+              <point x="0.0" y="-46.5" />
+              <point x="0.0" y="46.5" />
+            </edge>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.HasExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
+              <point x="-39.0" y="-35.0" />
+              <point x="416.0" y="547.0" />
+              <point x="338.16666666666663" y="547.0" />
+              <point x="61.66666666666663" y="46.5" />
+            </edge>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Admin">
+              <point x="0.0" y="-134.5" />
+              <point x="0.0" y="101.5" />
+            </edge>
+            <edge source="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.FlexibleExpense" target="c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.Expense">
+              <point x="0.0" y="-46.5" />
+              <point x="88.0" y="547.0" />
+              <point x="214.8333333333333" y="547.0" />
+              <point x="-61.666666666666686" y="46.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7403415154749199" x="279.4048148815529" y="466.17471529479604" />
+          <SelectedNodes>
+            <node>c8b882a0-e297-4b22-bb6c-a136637a2a15.TABLE:expenseManagement.User</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexibleReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userPro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="151" column="36" lean-forward="true" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
+          <folding>
+            <element signature="e#7486#7492#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin-area/query1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -770,6 +693,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin-area/adminpro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reportDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8b882a0-e297-4b22-bb6c-a136637a2a15/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/updateUserPro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="207" column="28" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="207" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewExpense.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="99" column="152" selection-start-line="99" selection-start-column="144" selection-end-line="99" selection-end-column="152" />
         </state>
       </provider>
     </entry>
