@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include("../include/db.php");
 ?>
 
@@ -34,6 +35,25 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <?php
+                            $userName = $_SESSION['user_mail'];
+                            if ($userName == true){
+
+                            }else{
+                                header('location: adminLogin.php');
+                            }
+                            $query = "SELECT * FROM Admin where email='$userName' ";
+                            $userData = mysqli_query($con,$query);
+                            $result = mysqli_fetch_assoc($userData);  // result in the form of array
+                            echo $result['fname']; // fetching the first name
+                        ?>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="logout.php">Logout</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../about.php">About</a>
                 </li>
@@ -55,13 +75,13 @@
                         </tr>
 
                         <tr>
-                            <td><label>2.Display students name who are under Rudra</label></td>
-                            <td><a href="q2.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><label>2.Display list of details user and fetch miscelleneous</label></td>
+                            <td><a href="query2.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>
-                            <td><label>3.Display faculty details who has joined after 2015</label></td>
-                            <td><a href="q3.php"><button type="button" class="rounded-bottom">Check</button></a></td>
+                            <td><label>3.Display details of flexibleExpense for unsalaried user<label></td>
+                            <td><a href="query3.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
 
                         <tr>
@@ -95,8 +115,8 @@
                         </tr>
 
                         <tr>
-                            <td><label>10.List the details of meeting conducted by Dr.Chandana</label></td>
-                            <td><button type="button" class="rounded-bottom">Check</button></td>
+                            <td><label>10.List the details of expense paid on bills for al users user</label></td>
+                            <td><a href="query10.php"><button type="button" class="rounded-bottom">Check</button></a></td>
                         </tr>
                     </table>
 
